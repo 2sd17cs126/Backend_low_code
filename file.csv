@@ -1,0 +1,4 @@
+type,method,patient,provider
+Emergency,Call,John Doe,Henry Taylor
+Telephone,Referral,John Doe,Henry Taylor
+Routine,Online,Gee Pee,Jesse Cooper

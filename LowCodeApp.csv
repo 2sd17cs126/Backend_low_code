@@ -1,0 +1,11 @@
+Step Defination,ObjectName,FunctionName,FunctionReturnParam,param1,param2,param3,param4,param5,param6,param7,param8,param9,param10
+I launch Demo Health Tracking Application URL,Login,launchingURL,,,,,,,,,,,
+I login to the application with the defined credentials,Login,login,driver,,,,,,,,,,
+I select the Appointments Tab,HomePage,appointment,,driver,,,,,,,,,
+I select the Add Appointment option,AppointmentPage,addnewappointment,,driver,,,,,,,,,
+"I Furnish the details for the appointment \""(.*?)\"",\""(.*?)\"",\""(.*?)\"",\""(.*?)\",AppointmentPage,appointmentform,,driver,type,method,patient,provider,,,,,
+I add the other details to the form,AppointmentPage,appointmentdetails,,driver,,,,,,,,,
+I save the appointment device,AppointmentPage,saveappointment,,driver,,,,,,,,,
+I procceed to delete the appointment,AppointmentPage,deleteappointment,,driver,,,,,,,,,
+I logout from the application,LogOut,accountoptions,,driver,,,,,,,,,
+I verify the logout message,LogOut,logoutapplication,,driver,,,,,,,,,

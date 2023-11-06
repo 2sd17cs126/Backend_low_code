@@ -1,0 +1,8 @@
+pre,post,tag,scenerio
+Given I launch Demo Health Tracking Application URL,And I add the other details to the form,test,Orthogonal Testing Validation for Demo Website- Appointment Page
+When I login to the application with the defined credentials,And I select cancel the appointment device,,
+And I select the Appointments Tab,And I logout from the application,,
+And I select the Add Appointment option,And I verify the logout message,,
+
+
+
